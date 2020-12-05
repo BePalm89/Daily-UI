@@ -1,7 +1,9 @@
 #main {
     background-image: url(/img/globe.png);
     height: 100vh;
+    background-repeat: no-repeat;
     font-family: 'Montserrat', sans-serif;
+    background-size: 100% 100%;
 }
 
 #logo{
@@ -110,7 +112,34 @@
     color: #FFF;
 }
 
+@media screen and (max-width: 1200px) {
+    #main {
+        background-image: url(/img/globe.png) center center cover no-repeat fixed;
+    }
 
+    #logo {
+        text-align: center;
+    }
+
+    .col-lg-1{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .col-lg-2{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .form {
+        margin-top: 0;
+    }
+
+    .btn-letsgo {
+        width: 50%;
+    }
+
+}
 
 
 
