@@ -1,0 +1,116 @@
+#main {
+    background-image: url(/img/globe.png);
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo{
+    font-family: 'Homemade Apple', cursive;
+    color: #6B4F3C;
+    transform: rotate(350deg);
+}
+
+.row {
+    margin-top: 100px;
+}
+
+.btn {
+    background-color: transparent;
+    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.login-btn {
+ color: #FFFFFF;   
+}
+
+.login-btn:hover {
+    color: #6B4F3C;
+}
+
+.signup-btn {
+    color: #6B4F3C;
+}
+
+.signup-btn:hover {
+    color: #FFFFFF;
+}
+
+.form {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.form p {
+    color: #FFFFFF;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+.form-control {
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #FFFFFF;
+    color: white;
+} 
+
+.form-row{
+    margin: 30px auto;
+    width: 30%;
+}
+
+.form-row .col {
+
+    margin-top: 20px;
+}
+/*
+.form-group {
+    padding-left:  5%;
+    padding-right: 5%;
+}*/
+
+.form-control::-webkit-input-placeholder {
+    color: #FFF;
+}
+
+.btn-letsgo {
+    width: 30%;
+    background-color: #6B4F3C;
+    opacity: 0.6;
+    filter: alpha(opacity=96);
+    color: #FFF;
+}
+
+.btn-letsgo:hover {
+    color: #FFF;
+}
+
+.inner-addon { 
+    position: relative; 
+}
+
+/* style icon */
+.inner-addon .glyphicon {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+/* align icon */
+.left-addon .glyphicon  { left:  0px;}
+.right-addon .glyphicon { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
+
+.glyphicon {
+    color: #FFF;
+}
+
+
+
+
+
